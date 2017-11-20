@@ -8,7 +8,12 @@
     <link rel="icon" type="image/png" href="favicon.png"> -->
 
     <link rel="stylesheet" href="stylesheets/style.css">
-    <script src="javascripts/jquery-3.1.1.js"></script>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+    <script src="javascripts/logo.js"></script>
+
+    <script src="javascripts/jquery-3.1.1.js" charset="utf-8"></script>
+    <script src="javascripts/sidebar.js" charset="utf-8"></script>
+    <script src="javascripts/gallery.js" charset="utf-8"></script>
     <script src="javascripts/social-likes.min.js"></script>
 
   </head>
@@ -27,7 +32,7 @@
     </nav>
 
     <section class="start">
-      <div class="st">
+      <div class="st" id="changingword" >
         <h2>Школа изучения иностранных языков</h2>
         <h1>[Клевер]</h1>
         <h3>Clever – в пер. с англ., умный</h3>
@@ -35,7 +40,10 @@
     </section>
 
     <section class="infa" id="1">
-      <h1> Школа Clever – это школа иностранных языков, где каждый может выбрать наиболее подходящий для себя курс и формат обучения. Несмотря на молодой возраст, Школа Clever активно развивается, совершенствуя методы обучения, осваивая новые технологии в преподавании, реализуя свои многочисленные идеи и проекты. Обучение в школе Clever дает слушателю уверенность и свободу в открытии для себя других языков, культур и стран. Школа работает по разным методикам, в том числе и авторским. Индивидуальный подход к каждому слушателю помогает дать хорошую базу, глубже освоить необходимый материал. </h1>
+      <div class="fon">
+        <h2> Место, куда дети приходят <br> с удовольствием, а родители <br> с уверенностью в результате </h2>
+        <h1> Школа Clever – это школа иностранных языков, где каждый может выбрать наиболее подходящий для себя курс и формат обучения. Несмотря на молодой возраст, Школа Clever активно развивается, совершенствуя методы обучения, осваивая новые технологии в преподавании, реализуя свои многочисленные идеи и проекты. Обучение в школе Clever дает слушателю уверенность и свободу в открытии для себя других языков, культур и стран. Школа работает по разным методикам, в том числе и авторским. Индивидуальный подход к каждому слушателю помогает дать хорошую базу, глубже освоить необходимый материал. </h1>
+      </div>
     </section>
 
     <section class="pred" id="2">
@@ -62,10 +70,16 @@
           </div>
         </div>
 
-        <div class="d">
-          <div class="dd">
-            <img src="images/бизнес.svg">
-            <h1>Бизнесс – курс</h1>
+        <div class="prr">
+          <div class="d">
+            <div class="dd">
+              <img src="images/бизнес.svg">
+              <h1>Бизнесс – курс</h1>
+            </div>
+          </div>
+
+          <div class="strelka">
+            <a href="#10"> <img src="images/стрелка-01.png"> </a>
           </div>
         </div>
 
@@ -73,15 +87,15 @@
 
     </section>
 
-    <section class="predosta" id="2">
+    <section class="predosta" id="10" >
 
       <div class="predosto">
 
-        <div class="e">
+        <div class="e" >
           <h1>Мы предоставляем:</h1>
         </div>
 
-        <div class="pr">
+        <div class="pri">
           <div class="f">
             <div class="ff">
               <img src="images/диалог.svg">
@@ -106,12 +120,12 @@
             </div>
           </div>
 
-          <div class="h">
+          <!-- <div class="h">
             <div class="hh">
               <img src="images/книги.svg">
               <h1> Обучение английскому, французскому, немецкому, испанскому языкам</h1>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -119,21 +133,61 @@
 
     </section>
 
+    <section class="yaz">
+      <div class="fon">
+        <h2> В нашей школе вы можете изучать изучать английский, французский, немецкий, испанский язык!</h2>
+      </div>      
+    </section>
+
+    <section class="gallery" id="3">
+        <nav class="galleryNav">
+          <div class="disabled"id="prev"></div>
+          <div id="next"></div>
+        </nav>
 
 
+        <section class="galleryRail">
+          <figure class="mal"><img src="images/0a.jpg" /></figure>
+          <figure class="mal"><img src="images/1a.jpg" /></figure>
+          <figure class="mal"><img src="images/2a.jpg" /></figure>
+          <figure class="mal"><img src="images/3a.jpg" /></figure>
+          <figure class="mal"><img src="images/14a.jpg" /></figure>
+          <figure class="mal"><img src="images/5a.jpg" /></figure>
+          <figure class="mal"><img src="images/6a.jpg" /></figure>
+          <figure class="mal"><img src="images/7a.jpg" /></figure>
+          <figure><img src="images/8a.jpg" /></figure>
+          <figure><img src="images/9a.jpg" /></figure>
+          <figure><img src="images/10a.jpg" /></figure>
+          <figure><img src="images/11a.jpg" /></figure>
+          <figure><img src="images/12a.jpg" /></figure>
+          <figure><img src="images/13a.jpg" /></figure>
+          <figure><img src="images/15a.jpg" /></figure>
+          <figure><img src="images/16a.jpg" /></figure>
+          <figure><img src="images/17a.jpg" /></figure>
+        </section>
+
+        <figcaption>
+          <a>Фотографии из школы</a>
+        </figcaption>
+      </section>
 
 
+      <section class="cont" id="4">
+        <section class="con">
+
+          <h2>г.Балашиха, мкрн. Железнодорожный, ул.Колхозная, 12/3 <br> Тел: +7 916 882 - 64 - 67 <br> +7 915 064 - 50 - 09 <br> e-mail: schoolclever2016@gmail.com</h2>
 
 
-    <footer>
-      <p>Поделитесь с друзьми</p>
-
-      <div class="social-likes social-likes_single" data-url="file:///Users/alisagordeeva/Documents/clever/index.html" data-single-title="Share">
-        <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
-        <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
-        <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
-      </div>
-    </footer>
+          <footer >
+            <p>Поделитесь с друзьями!</p>
+            <div class="social-likes social-likes_single" data-url="file:///Users/alisagordeeva/Documents/clever/index.html" data-single-title="Share">
+              <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+              <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+              <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+            </div>
+          </footer>
+        </section>
+      </section>
 
   </body>
 </html>

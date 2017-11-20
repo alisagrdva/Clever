@@ -1,0 +1,98 @@
+.gallery {
+  /*display: flex;*/
+
+  text-align: center;
+
+  min-width: 160vh;
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.galleryRail {
+  margin-top: 16vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.galleryRail img {
+  display: block;
+  width: 42vh;
+  margin: 0 auto;
+}
+
+.galleryRail figure {
+  width: 100vw;
+  min-width: 100vw;
+}
+
+.gallery figcaption a {
+  font-size: 2vh;
+  line-height: 9vh;
+
+}
+
+.mal img {
+  width: 134vh;
+}
+
+.galleryNav {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 51px);
+}
+
+.galleryNav div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.galleryNav .disabled {
+  opacity: 0;
+  cursor: default;
+}
+
+.galleryNav div::before,
+.galleryNav div::after {
+  content: '';
+  position: absolute;
+  background: black;
+}
+
+.galleryNav div::before {
+  width: 5px;
+  height: 20px;
+}
+
+.galleryNav div::after {
+  width: 20px;
+  height: 5px;
+}
+
+#prev {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#next {
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
