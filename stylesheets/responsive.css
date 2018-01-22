@@ -1,0 +1,13 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  .infa h1 {
+    width: 41vh;
+
+  }
+
+  .infa h2 {
+    width: 47vh;
+    font-size: 4vh;
+
+  }
+
+}
