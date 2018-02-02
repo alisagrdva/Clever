@@ -23,7 +23,7 @@
 }
 
 .start {
-  font-family: 'Monaco';
+  font-family: 'Lato';
   display: flex;
   justify-content: center;
   text-align: center;
@@ -44,12 +44,12 @@
 
 .start h2{
   font-size: 44px;
-  margin-left: -23px;
+  margin-left: 6px;
 }
 
 .start h3{
   font-size: 44px;
-  margin-left: -105px;
+  margin-left: -170px;
 }
 
 .infa {
