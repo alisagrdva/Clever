@@ -6,3 +6,19 @@
 @import "predostt.css";
 @import "gallery.css";
 @import "responsive.css";
+@import "https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&subset=cyrillic";
+
+@font-face {
+  font-family: 'Lato';
+  src:url(../fonts/Lato-Bold.woff);
+}
+
+@font-face {
+  font-family: 'Lato';
+  src:url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
+  font-family: 'Monaco';
+  src:url(../fonts/Monaco.woff);
+}
