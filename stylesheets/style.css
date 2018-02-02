@@ -10,15 +10,15 @@
 
 @font-face {
   font-family: 'Lato';
-  src:url(../fonts/Lato-Bold.woff);
+  src: url(../fonts/Lato-Bold.woff);
 }
 
 @font-face {
   font-family: 'Lato';
-  src:url(../fonts/Lato-Regular.woff);
+  src: url(../fonts/Lato-Regular.woff);
 }
 
 @font-face {
   font-family: 'Monaco';
-  src:url(../fonts/Monaco Plain_001.001.ttf);
+  src: url(../fonts/Monaco Plain_001.001.ttf) format('truetype');
 }
