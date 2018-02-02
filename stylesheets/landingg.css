@@ -1,7 +1,6 @@
 .landing {
   height: 100%;
   width: 100%;
-  font-family:'Monaco'
   /*font-family:'Monaco';
   position: relative;
   display: -webkit-box;
@@ -20,11 +19,11 @@
 
 #changingword {
   font-size: 200px;
-  font-family: 'Monaco';
+
 }
 
 .start {
-  font-family: 'Monaco';
+  font-family: 'Lato';
   display: flex;
   justify-content: center;
   text-align: center;
@@ -34,25 +33,21 @@
 }
 
 .st {
-  font-family: 'Monaco';
   margin-top: 4vh;
 }
 
 .start h1{
-  font-family: 'Monaco';
   font-size: 200px;
   padding-top: 25px;
   padding-bottom: 40px;
 }
 
 .start h2{
-  font-family: 'Monaco';
   font-size: 44px;
   margin-left: -25px;
 }
 
 .start h3{
-  font-family: 'Monaco';
   font-size: 44px;
   margin-left: -105px;
 }
