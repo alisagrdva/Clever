@@ -13,6 +13,7 @@
   src: url(../fonts/Lato-Bold.woff);
 }
 
+
 @font-face {
   font-family: 'Lato';
   src: url(../fonts/Lato-Regular.woff);
@@ -21,6 +22,4 @@
 @font-face {
   font-family: 'Monaco';
   src: url(../fonts/Monaco Plain_001.001.ttf);
-  src: url(../fonts/Monaco_1.woff);
-
 }
