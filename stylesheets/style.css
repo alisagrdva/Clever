@@ -22,7 +22,6 @@
 @font-face {
   font-family: 'Monaco';
   src: url(../fonts/Monaco Plain_001.001.ttf);
-  src: url(../fonts/Monaco_1.woff);
   src: url(../fonts/MonacoPlain001001.woff);
-  src: url(../fonts/MonacoPlain001001.woff2);
+
 }
