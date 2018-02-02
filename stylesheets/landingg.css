@@ -23,7 +23,7 @@
 }
 
 .start {
-  font-family: 'Monaco'; 
+  font-family: 'Monaco';
   display: flex;
   justify-content: center;
   text-align: center;
@@ -38,7 +38,7 @@
 
 .start h1{
   font-size: 200px;
-  padding-top: 25px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 
