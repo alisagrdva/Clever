@@ -10,11 +10,12 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url(../fonts/Lato-Bold.woff);
+  src: url(../fonts/LatoBold.woff);
+  font-weight: bold;
 }
 
 
 @font-face {
   font-family: 'Lato';
-  src: url(../fonts/Lato-Regular.woff);
+  src: url(../fonts/LatoRegular.woff);
 }
