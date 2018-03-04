@@ -250,3 +250,24 @@
 
 
 }
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .infa h1 {
+    width: 44vh;
+  }
+
+  .infa h2 {
+    width: 44vh;
+    font-size: 3vh;
+  }
+
+  .yaz h2 {
+    width: 44vh;
+    font-size: 3vh;
+  }
+
+  .foot {
+    margin: 87vh 0vh 4vh 80px;
+  }
+
+}
