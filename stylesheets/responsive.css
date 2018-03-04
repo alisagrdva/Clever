@@ -4,13 +4,17 @@
   }
 
   .infa h2 {
-    width: 41vh;
+    width: 42vh;
     font-size: 3vh;
   }
 
   .yaz h2 {
     width: 42vh;
     font-size: 3vh;
+  }
+
+  .brrr {
+    display: block;
   }
 
   .b {

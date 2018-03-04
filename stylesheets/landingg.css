@@ -23,6 +23,10 @@
 
 }
 
+.brrr {
+  display: none;
+}
+
 .start {
   /*font-family: 'Lato';*/
   font-family: 'PT Sans';
