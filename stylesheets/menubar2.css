@@ -1,5 +1,6 @@
 .menubar {
-  font-family: 'Lato';
+  /*font-family: 'Lato';*/
+  font-family: 'PT Sans';
   display: block;
   flex-direction: column;
   align-items: center;
